@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: cursive;
+}
+
+.testimonial-container {
+    width: 500px;
+    height: 100px;
+    background-color: slateblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    min-width: 500px;
+    padding: 80px 2px;
+    margin: 5px;
+    color: white;
+    position: relative;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;}
+
+
+.username {
+font-size: 13px;
+font-weight: 100;
+text-align: center;
+font-style: italic;
+font-size: medium;
+}
